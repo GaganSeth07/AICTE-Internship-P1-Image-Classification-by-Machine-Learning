@@ -58,4 +58,4 @@ Feel free to fork the repository, open issues, or submit pull requests to contri
 ### Acknowledgements
 
 - [Streamlit](https://streamlit.io/)
-- [TensorFlow](https://www.tensorflow.org/
+- [TensorFlow](https://www.tensorflow.org/)
