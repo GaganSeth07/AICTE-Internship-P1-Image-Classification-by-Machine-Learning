@@ -1,5 +1,7 @@
 # AICTE-Internship-P1-Image-Classification-by-Machine-Learning
 
+# Implementation-of-ML-model-for-image-classification
+
 Implementation-of-ML-model-for-image-classification is a Streamlit app that integrates MobileNetV2, CIFAR-10, and Xception models for image classification. Users can upload images and receive predictions with confidence scores from any of these models. It features a sleek navigation bar for easy switching and real-time results, making it ideal for learning and practical use.
 
 ## Key Features
@@ -43,12 +45,15 @@ Implementation-of-ML-model-for-image-classification is a Streamlit app that inte
    pip install -r requirements.txt
    ```
 
-4. **Start the Streamlit app**:
+4. **Download the Xception Model**:
+   The pre-trained Xception model file is available for download [here](https://drive.google.com/file/d/1RHlHSEG18rLw0ri-kR6IHoiuaN7m9l-F/view?usp=drive_link). Ensure you save the file as `xception_model.h5` in the project directory.
+
+5. **Start the Streamlit app**:
    ```bash
    streamlit run app.py
    ```
 
-5. **Open the app**: 
+6. **Open the app**: 
    The app will open in your default web browser. If not, navigate to http://localhost:8501.
 
 ### Contributing
